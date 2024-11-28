@@ -10,7 +10,7 @@ const SignIn = () => {
     <>
       <div className="min-w-full min-h-full ">
         <div className="flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 pt-5 w-[40%]    bg-[rgba(66,133,244,1)]">
+          <div className="flex flex-col px-8 pt-5 w-[800px]   bg-[rgba(66,133,244,1)]">
             <p className="self-center">
             <Image src="/mankind4dev.png" alt="logo" width={100} height={100} />
             </p>
@@ -23,7 +23,7 @@ const SignIn = () => {
               I am overspending. Highly recommend this to any SME owner who wants
               to stay on top of their financial health without the stress! 
             </p>
-            <p className="text-[25px] font-[600] mt-3">
+            <p className="text-[25px] font-[600] mt-3   ">
               .Jane O., Owner of FreshBakes Confectioneries
             </p>
           </div>
