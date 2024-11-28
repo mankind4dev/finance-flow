@@ -4,6 +4,7 @@ import { FaRegEnvelope } from "react-icons/fa";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { PiLockKeyLight } from "react-icons/pi";
 import Link from "next/link";
+import Image from "next/image";
 
 const SignUp = () => {
   return (
@@ -12,7 +13,7 @@ const SignUp = () => {
         <div className="flex h-[100vh] w-[100%]    ">
           <div className="flex flex-col px-8 pt-5 w-[600px]    bg-[rgba(66,133,244,1)]">
             <p className="self-center">
-              <img src="/mankind4dev.png" alt="logo" />
+              <Image src="/mankind4dev.png" alt="logo" width={100} height={100} />
             </p>
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
               “This app has been a game-changer for my small business!
