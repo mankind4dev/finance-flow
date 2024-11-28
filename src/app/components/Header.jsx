@@ -6,6 +6,7 @@ import {
   SignInButton,
   SignOutButton,
 } from "@clerk/nextjs";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -13,10 +14,10 @@ const Header = () => {
       <div className="bg-gray-800 ">
         <div className="flex text-center justify-around p-3">
           <Link href={"/"}>
-            <img
+          <Image
               src="/mankind4dev.png"
               alt="logo"
-              className="w-[80px] h-[60px]"
+              width={100} height={100}
             />
           </Link>
           <ul className="flex text-center self-center">

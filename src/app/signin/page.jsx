@@ -1,4 +1,4 @@
-import React from "react";
+"use client"
 import { FcGoogle } from "react-icons/fc";
 import { FaRegEnvelope } from "react-icons/fa";
 import { PiLockKeyLight } from "react-icons/pi";
@@ -15,21 +15,21 @@ const SignIn = () => {
             <Image src="/mankind4dev.png" alt="logo" width={100} height={100} />
             </p>
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
-              “This app has been a game-changer for my small business!
+              &quot;This app has been a game-changer for my small business!
               Connecting my bank account was super easy, and now I can see all
               my cash flow and expenses in one place. The automated reports save
-              me so much time—I used to spend hours trying to make sense of my
+              me so much time I used to spend hours trying to make sense of my
               finances. The insights are also spot-on, helping me identify where
-              I'm overspending. Highly recommend this to any SME owner who wants
-              to stay on top of their financial health without the stress!”
+              I&apos;m overspending. Highly recommend this to any SME owner who wants
+              to stay on top of their financial health without the stress!&quot;
             </p>
             <p className="text-[25px] font-[600] mt-3">
               .Jane O., Owner of FreshBakes Confectioneries
             </p>
           </div>
 
-          <div className="w-full  bg-white align-center   ">
-            <div className="flex flex-col w-full justify-center p-32    ">
+          <div className="w-full  bg-white align-center">
+            <div className="flex flex-col w-full justify-center p-32">
               <h1 className="text-start text-[28px] font-[700] mb-4 text-black">
                 Welcome back
               </h1>
@@ -81,7 +81,7 @@ const SignIn = () => {
               </form>
               <div className="flex justify-center text-center mt-3 whitespace-nowrap">
                 <p className="text-[rgba(83,83,83,1)] text-[16px]">
-                  Don’t have an account?
+                  Don&apos;t have an account?
                 </p>
                 <Link
                   href={"/sign-up"}
