@@ -11,18 +11,23 @@ const SignUp = () => {
     <>
       <div className="min-w-full min-h-full ">
         <div className="flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 pt-5 w-[600px]    bg-[rgba(66,133,244,1)]">
-            <p className="self-center">
-              <Image src="/mankind4dev.png" alt="logo" width={100} height={100} />
-            </p>
+          <div className="flex flex-col px-8 pt-5 w-[1000px]    bg-[rgba(66,133,244,1)]">
+            <Image
+              src="/mankind4dev.png"
+              alt="logo"
+              width={100}
+              height={100}
+              className="self-center"
+            />
+
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
-               This app has been a game-changer for my small business!
-              Connecting my bank account was super easy, and now I can see all
-              my cash flow and expenses in one place. The automated reports save
-              me so much time I used to spend hours trying to make sense of my
-              finances. The insights are also spot-on, helping me identify where
-              I am overspending. Highly recommend this to any SME owner who wants
-              to stay on top of their financial health without the stress! 
+              This app has been a game-changer for my small business! Connecting
+              my bank account was super easy, and now I can see all my cash flow
+              and expenses in one place. The automated reports save me so much
+              time I used to spend hours trying to make sense of my finances.
+              The insights are also spot-on, helping me identify where I am
+              overspending. Highly recommend this to any SME owner who wants to
+              stay on top of their financial health without the stress!
             </p>
             <p className="text-[25px] font-[600] mt-3">
               .Jane O., Owner of FreshBakes Confectioneries
@@ -34,7 +39,7 @@ const SignUp = () => {
               <h1 className="text-start text-[28px] font-[700] mb-4 text-black">
                 Create an account
               </h1>
-              <button className="flex justify-center p-4 rounded-[30px]  w-full bottom-2 border-[1px] border-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]">
+              <button className="flex justify-center p-2 rounded-[30px]  w-full bottom-2 border-[1px] border-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]">
                 <FcGoogle className="flex text-center self-center mr-4 text-20" />
                 Sign up with Google
               </button>
@@ -43,73 +48,83 @@ const SignUp = () => {
                   OR
                 </span>
               </p>
-              <form action="" className="flex flex-col   mt-5">
-                <label
-                  htmlFor=""
-                  className="text-[20px] font[500] mb-2 text-[rgba(0,0,0,1)]"
+              <form action="" className="flex flex-col mt-5">
+                <label 
+                  className="text-[20px] font[500] mb-1 text-[rgba(0,0,0,1)]"
                 >
-                  Company Name 
+                  Company Name
                 </label>
-                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-2">
-                  <BsFillPeopleFill  className="text-start justify-center pl-2  text-[35px]" />
+                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
+                  <BsFillPeopleFill className="text-start justify-center pl-2  text-[35px]" />
                   <input
                     type="text"
-                    className="text-start text-[20px]  p-4 outline-none"
+                    className="text-start text-[20px]  p-2 w-full outline-none"
                     placeholder="Type your company name...."
                   />
                 </div>
 
-                <label
-                  htmlFor=""
-                  className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]"
+                <label 
+                  className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]"
                 >
                   Email Address
                 </label>
-                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-2">
+                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
                   <FaRegEnvelope className="text-start justify-center pl-2  text-[35px]" />
                   <input
                     type="email"
-                    className="text-start text-[20px]  p-4 outline-none"
+                    className="text-start text-[20px]  p-2 w-full outline-none"
                     placeholder="example@gmail.com"
                   />
                 </div>
-                <label
-                  htmlFor=""
-                  className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]"
+                <label 
+                  className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]"
                 >
                   Password
                 </label>
-                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-2">
+                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
                   <PiLockKeyLight className="text-start justify-center pl-2  text-[35px]" />
                   <input
                     type="password"
-                    className="text-start text-[20px]  p-4 outline-none"
+                    className="text-start text-[20px]  p-2 w-full outline-none"
                     placeholder="Enter your password...."
                   />
                 </div>
-                <label
-                  htmlFor=""
-                  className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]"
+                <label 
+                  className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]"
                 >
                   Country of residence
                 </label>
-                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-2"> 
-                  <select name="" id="" className="p-4 text-[20px] w-full outline-none">
+                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
+                  <select
+                    name=""
+                    id=""
+                    className="p-2  text-[20px] w-full outline-none"
+                  >
                     <option value="">e.g Nigeria</option>
                     <option value="Canada">Canada</option>
                     <option value="Finland">Finland</option>
                     <option value="France">France</option>
-                    <option value="Singapore">Singapore</option> 
-                    <option value="Nigeria">Nigeria</option> 
-                  </select> 
+                    <option value="Singapore">Singapore</option>
+                    <option value="Nigeria">Nigeria</option>
+                  </select>
                 </div>
-                <button type="submit" className="flex justify-center p-4 rounded-[30px]  w-full bottom-2 mt-5   bg-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]">
+                <button
+                  type="submit"
+                  className="flex justify-center p-4 rounded-[30px]  w-full bottom-2 mt-5  text-[rgba(230,242,242,1)]  bg-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]"
+                >
                   Create an account
                 </button>
               </form>
               <div className="flex justify-center text-center mt-3 whitespace-nowrap">
-                <p className="text-[rgba(83,83,83,1)] text-[16px]">Already have an account?</p> 
-                <Link href={"/sign-in"} className="ml-2 text-[rgba(66,133,244,1)] text-[18px]">Sign in</Link>
+                <p className="text-[rgba(83,83,83,1)] text-[16px]">
+                  Already have an account?
+                </p>
+                <Link
+                  href={"/sign-in"}
+                  className="ml-2 text-[rgba(66,133,244,1)] text-[18px]"
+                >
+                  Sign in
+                </Link>
               </div>
             </div>
           </div>

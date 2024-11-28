@@ -10,10 +10,10 @@ const SignIn = () => {
     <>
       <div className="min-w-full min-h-full ">
         <div className="flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 pt-5 w-[800px]   bg-[rgba(66,133,244,1)]">
-            <p className="self-center">
-            <Image src="/mankind4dev.png" alt="logo" width={100} height={100} />
-            </p>
+          <div className="flex flex-col px-8 pt-5 w-[1000px]   bg-[rgba(66,133,244,1)]">
+            
+            <Image src="/mankind4dev.png" alt="logo" width={100} height={100} className="self-center" />
+          
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
                This app has been a game-changer for my small business!
               Connecting my bank account was super easy, and now I can see all
@@ -33,7 +33,7 @@ const SignIn = () => {
               <h1 className="text-start text-[28px] font-[700] mb-4 text-black">
                 Welcome back
               </h1>
-              <button className="flex justify-center p-4 rounded-[30px]  w-full bottom-2 border-[1px] border-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]">
+              <button className="flex justify-center p-2 rounded-[30px]  w-full bottom-2 border-[1px] border-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]">
                 <FcGoogle className="flex text-center self-center mr-4 text-20" />
                 Sign in with Google
               </button>
@@ -42,39 +42,37 @@ const SignIn = () => {
                   OR
                 </span>
               </p>
-              <form action="" className="flex flex-col   mt-5">
-                <label
-                  htmlFor=""
+              <form className="flex flex-col   mt-5">
+                <label 
                   className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]"
                 >
                   Email Address
                 </label>
-                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-2">
+                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
                   <FaRegEnvelope className="text-start justify-center pl-2  text-[35px]" />
                   <input
                     type="email"
-                    className="text-start text-[20px]  p-4 outline-none"
+                    className="text-start text-[20px] w-full  p-2 outline-none"
                     placeholder="example@gmail.com"
                   />
                 </div>
-                <label
-                  htmlFor=""
+                <label 
                   className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]"
                 >
                   Password 
                 </label>
-                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-2">
+                <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
                   <PiLockKeyLight  className="text-start justify-center pl-2  text-[35px]" />
                   <input
                     type="password"
-                    className="text-start text-[20px]  p-4 outline-none"
+                    className="text-start text-[20px]  p-2 w-full outline-none"
                     placeholder="Enter your password...."
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="flex justify-center p-4 rounded-[30px]  w-full bottom-2 mt-8   bg-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]"
+                  className="flex justify-center p-4 rounded-[30px]  w-full bottom-2 mt-8 text-]rgba(230,242,242,1)]   bg-[rgba(66,133,244,1)] text-[rgba(0,0,0,1)] text-[20px] font-[500]"
                 >
                   Sign in
                 </button>
