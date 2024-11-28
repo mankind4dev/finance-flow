@@ -15,13 +15,13 @@ const SignIn = () => {
             <Image src="/mankind4dev.png" alt="logo" width={100} height={100} />
             </p>
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
-              &quot;This app has been a game-changer for my small business!
+               This app has been a game-changer for my small business!
               Connecting my bank account was super easy, and now I can see all
               my cash flow and expenses in one place. The automated reports save
               me so much time I used to spend hours trying to make sense of my
               finances. The insights are also spot-on, helping me identify where
-              I&apos;m overspending. Highly recommend this to any SME owner who wants
-              to stay on top of their financial health without the stress!&quot;
+              I am overspending. Highly recommend this to any SME owner who wants
+              to stay on top of their financial health without the stress! 
             </p>
             <p className="text-[25px] font-[600] mt-3">
               .Jane O., Owner of FreshBakes Confectioneries
@@ -81,7 +81,7 @@ const SignIn = () => {
               </form>
               <div className="flex justify-center text-center mt-3 whitespace-nowrap">
                 <p className="text-[rgba(83,83,83,1)] text-[16px]">
-                  Don&apos;t have an account?
+                  Do not have an account?
                 </p>
                 <Link
                   href={"/sign-up"}
