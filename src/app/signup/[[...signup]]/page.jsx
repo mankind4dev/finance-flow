@@ -18,8 +18,7 @@ const SignUp = () => {
               width={100}
               height={100}
               className="self-center"
-            />
-
+            /> 
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
               This app has been a game-changer for my small business! Connecting
               my bank account was super easy, and now I can see all my cash flow
@@ -49,9 +48,7 @@ const SignUp = () => {
                 </span>
               </p>
               <form action="" className="flex flex-col mt-5">
-                <label 
-                  className="text-[20px] font[500] mb-1 text-[rgba(0,0,0,1)]"
-                >
+                <label className="text-[20px] font[500] mb-1 text-[rgba(0,0,0,1)]">
                   Company Name
                 </label>
                 <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
@@ -63,9 +60,7 @@ const SignUp = () => {
                   />
                 </div>
 
-                <label 
-                  className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]"
-                >
+                <label className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]">
                   Email Address
                 </label>
                 <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
@@ -76,9 +71,7 @@ const SignUp = () => {
                     placeholder="example@gmail.com"
                   />
                 </div>
-                <label 
-                  className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]"
-                >
+                <label className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]">
                   Password
                 </label>
                 <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
@@ -89,9 +82,7 @@ const SignUp = () => {
                     placeholder="Enter your password...."
                   />
                 </div>
-                <label 
-                  className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]"
-                >
+                <label className="text-[20px] font[500] mb-1 mt-4 text-[rgba(0,0,0,1)]">
                   Country of residence
                 </label>
                 <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
