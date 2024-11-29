@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const LinkBank = () => {
@@ -30,9 +31,11 @@ const LinkBank = () => {
           />
         </div>
         <div className="flex items-end  justify-center mt-32 gap-7 ">
-          <button className="p-[20px] px-[30px] rounded-[26px] text-xl font-normal  bg-[rgba(230,242,242,1)]">
+        <Link href={"/signin"}>
+          <button  className="p-[20px] px-[30px] rounded-[26px] text-xl font-normal  bg-[rgba(230,242,242,1)]">
             Get Started
           </button>
+        </Link>
         </div>
       </div>
     </>
