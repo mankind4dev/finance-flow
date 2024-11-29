@@ -82,7 +82,7 @@ const SignIn = () => {
                   Do not have an account?
                 </p>
                 <Link
-                  href={"/sign-up"}
+                  href={"/signup"}
                   className="ml-2 text-[rgba(66,133,244,1)] text-[18px]"
                 >
                   Create an account

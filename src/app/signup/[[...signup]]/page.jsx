@@ -120,7 +120,7 @@ const SignUp = () => {
                   Already have an account?
                 </p>
                 <Link
-                  href={"/sign-in"}
+                  href={"/signin"}
                   className="ml-2 text-[rgba(66,133,244,1)] text-[18px]"
                 >
                   Sign in
