@@ -11,7 +11,7 @@ import DrivenAi from "./components/landingPage/DrivenAi";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen min-w-full max-w-lg px-8    ">
+    <div className="flex flex-col min-h-screen min-w-full max-w-lg">
       <section className="flex flex-col gap-y-16 ">
         <Tracking />
         <SetUp />
