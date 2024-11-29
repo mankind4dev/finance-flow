@@ -12,13 +12,7 @@ const SignUp = () => {
       <div className="min-w-full min-h-full ">
         <div className="flex h-[100vh] w-[100%]    ">
           <div className="flex flex-col px-8 pt-5 w-[1000px]    bg-[rgba(66,133,244,1)]">
-            <Image
-              src="/mankind4dev.png"
-              alt="logo"
-              width={100}
-              height={100}
-              className="self-center"
-            /> 
+            <Image src="/logo.png" alt="logo" width={200} height={100} className="items-center" />
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
               This app has been a game-changer for my small business! Connecting
               my bank account was super easy, and now I can see all my cash flow

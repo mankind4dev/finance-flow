@@ -11,23 +11,38 @@ import Image from "next/image";
 const Header = () => {
   return (
     <>
-      <div className="bg-gray-800 ">
-        <div className="flex text-center justify-around p-3">
+      <div className="bg-[rgba(66,133,244,1)]">
+        <div className="flex text-center justify-between py-8 pr-16 pl-16">
           <Link href={"/"}>
           <Image
-              src="/mankind4dev.png"
+              src="/logo.png"
               alt="logo"
-              width={100} height={100}
+              width={200} height={100}
             />
           </Link>
           <ul className="flex text-center self-center">
-            <li className="text-2xl mr-6 text-white">
+            <li className="text-[20px] font-[500] mr-6 text-[rgba(0,0,0,1)] hover:text-gray-200">
               <Link href={"/"}>Home</Link>
             </li>
-            <li className="text-2xl mr-3 text-white">
-              <Link href={"/signin"}>Sign In</Link>
+            <li className="text-[20px] font-[500] mr-6 text-[rgba(0,0,0,1)] hover:text-gray-200">
+              <Link href={"/feature"}>Features</Link>
+            </li>
+            <li className="text-[20px] font-[500] mr-6 text-[rgba(0,0,0,1)] hover:text-gray-200">
+              <Link href={"/about"}>About</Link>
+            </li>
+            <li className="text-[20px] font-[500] mr-6 text-[rgba(0,0,0,1)] hover:text-gray-200">
+              <Link href={"/contact-us"}>Contact us</Link>
             </li>
           </ul>
+          <div className="flex justify-between items-center">
+            <li className="text-[20px] font-[500] mr-6 bg-[rgba(230,242,242,1)] text-[rgba(66,133,244,1)] list-none py-4 px-16 rounded-[50px]">
+              <Link href={"/signup"}>Get Started</Link>
+            </li>
+            <li className="text-[20px] font-[500] mr-6 bg-[rgba(230,242,242,1)] text-[rgba(66,133,244,1)] list-none py-4 px-16 rounded-[50px]">
+              <Link href={"/signin"}>Sign In</Link>
+            </li>
+
+          </div>
         </div>
       </div>
     </>

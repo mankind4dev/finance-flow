@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { FcGoogle } from "react-icons/fc";
 import { FaRegEnvelope } from "react-icons/fa";
 import { PiLockKeyLight } from "react-icons/pi";
@@ -11,17 +11,16 @@ const SignIn = () => {
       <div className="min-w-full min-h-full ">
         <div className="flex h-[100vh] w-[100%]    ">
           <div className="flex flex-col px-8 pt-5 w-[1000px]   bg-[rgba(66,133,244,1)]">
-            
-            <Image src="/mankind4dev.png" alt="logo" width={100} height={100} className="self-center" />
-          
+            <Image src="/logo.png" alt="logo" width={200} height={100}  className="items-center"/>
+
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
-               This app has been a game-changer for my small business!
-              Connecting my bank account was super easy, and now I can see all
-              my cash flow and expenses in one place. The automated reports save
-              me so much time I used to spend hours trying to make sense of my
-              finances. The insights are also spot-on, helping me identify where
-              I am overspending. Highly recommend this to any SME owner who wants
-              to stay on top of their financial health without the stress! 
+              This app has been a game-changer for my small business! Connecting
+              my bank account was super easy, and now I can see all my cash flow
+              and expenses in one place. The automated reports save me so much
+              time I used to spend hours trying to make sense of my finances.
+              The insights are also spot-on, helping me identify where I am
+              overspending. Highly recommend this to any SME owner who wants to
+              stay on top of their financial health without the stress!
             </p>
             <p className="text-[25px] font-[600] mt-3   ">
               .Jane O., Owner of FreshBakes Confectioneries
@@ -43,9 +42,7 @@ const SignIn = () => {
                 </span>
               </p>
               <form className="flex flex-col   mt-5">
-                <label 
-                  className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]"
-                >
+                <label className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]">
                   Email Address
                 </label>
                 <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
@@ -56,13 +53,11 @@ const SignIn = () => {
                     placeholder="example@gmail.com"
                   />
                 </div>
-                <label 
-                  className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]"
-                >
-                  Password 
+                <label className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]">
+                  Password
                 </label>
                 <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
-                  <PiLockKeyLight  className="text-start justify-center pl-2  text-[35px]" />
+                  <PiLockKeyLight className="text-start justify-center pl-2  text-[35px]" />
                   <input
                     type="password"
                     className="text-start text-[20px]  p-2 w-full outline-none"
