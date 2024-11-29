@@ -1,3 +1,4 @@
+"use client"
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,7 +13,7 @@ import './styles.css';
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
-export default function App() {
+export default function Swipers() {
   return (
     <>
       <Swiper
