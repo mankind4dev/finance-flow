@@ -35,10 +35,10 @@ const Header = () => {
             </li>
           </ul>
           <div className="flex justify-between items-center">
-            <li className="text-[20px] font-[500] mr-6 bg-[rgba(230,242,242,1)] text-[rgba(66,133,244,1)] list-none py-4 px-16 rounded-[50px]">
+            <li className="text-[20px] font-[500] mr-6 bg-[rgba(230,242,242,1)] text-[rgba(66,133,244,1)] list-none py-4 px-12 rounded-[50px]">
               <Link href={"/signup"}>Get Started</Link>
             </li>
-            <li className="text-[20px] font-[500] mr-6 bg-[rgba(230,242,242,1)] text-[rgba(66,133,244,1)] list-none py-4 px-16 rounded-[50px]">
+            <li className="text-[20px] font-[500] mr-6 bg-[rgba(230,242,242,1)] text-[rgba(66,133,244,1)] list-none py-4 px-12 rounded-[50px]">
               <Link href={"/signin"}>Sign In</Link>
             </li>
 
