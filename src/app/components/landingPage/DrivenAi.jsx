@@ -4,7 +4,7 @@ import React from "react";
 const DrivenAi = () => {
   return (
     <>
-      <div className="flex flex-col bg-[rgba(255,255,255,1)]">
+      <div className="flex flex-col bg-[rgba(255,255,255,1)] pt-14">
         <div className="flex w-full flex-wrap gap-8 justify-center text-center mt-24 py-16">
           <Image
             src="/images/ai1.png"
