@@ -10,7 +10,7 @@ const SignIn = () => {
     <>
       <div className="min-w-full min-h-full ">
         <div className="flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 pt-5 w-[1000px]   bg-[rgba(66,133,244,1)]">
+          <div className="flex flex-col px-8 pt-5  w-[1000px] bg-[rgba(66,133,244,1)]">
             <Image src="/logo.png" alt="logo" width={200} height={100}  className="items-center"/>
 
             <p className="text-[20px] font-[400] mt-[6rem] w-full">
@@ -28,7 +28,7 @@ const SignIn = () => {
           </div>
 
           <div className="w-full  bg-white align-center">
-            <div className="flex flex-col w-full justify-center p-32">
+            <div className="flex flex-col w-full justify-center p-24">
               <h1 className="text-start text-[28px] font-[700] mb-4 text-black">
                 Welcome back
               </h1>
@@ -53,7 +53,7 @@ const SignIn = () => {
                     placeholder="example@gmail.com"
                   />
                 </div>
-                <label className="text-[20px] font[500] mb-2 mt-6 text-[rgba(0,0,0,1)]">
+                <label className="text-[20px] font-[500] mb-2 mt-6 text-[rgba(0,0,0,1)]">
                   Password
                 </label>
                 <div className="flex text-start place-items-center  border-[1px] border-[rgba(66,133,244,1)] rounded-[8px]  p-1">
