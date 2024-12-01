@@ -27,8 +27,8 @@ const SignIn = () => {
             </p>
           </div>
 
-          <div className="w-full  bg-white align-center">
-            <div className="flex flex-col w-full justify-center p-24">
+          <div className="w-full  p-24 bg-white align-center">
+            <div className="flex flex-col w-full justify-center">
               <h1 className="text-start text-[28px] font-[700] mb-4 text-black">
                 Welcome back
               </h1>

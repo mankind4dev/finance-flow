@@ -11,7 +11,7 @@ const SignUp = () => {
     <>
       <div className="min-w-full min-h-full ">
         <div className="flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 w-[1000px] pt-10   bg-[rgba(66,133,244,1)]">
+          <div className="flex flex-col px-8 w-[1000px] pt-6   bg-[rgba(66,133,244,1)]">
             <Image
               src="/logo.png"
               alt="logo"
@@ -34,7 +34,7 @@ const SignUp = () => {
           </div>
 
           <div className="w-full  bg-white align-center   ">
-            <div className="flex flex-col w-full justify-center px-32 pt-24   ">
+            <div className="flex flex-col w-full justify-center px-32 pt-7   ">
               <h1 className="text-start text-[28px] font-[700] mb-4 text-black">
                 Create an account
               </h1>
