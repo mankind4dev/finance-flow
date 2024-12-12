@@ -23,12 +23,10 @@ export default function Home() {
         </section>
         <section className="flex w-full my-20">
           <Swipper />
-        </section>
-
+        </section> 
         <section className="">
           <Frequent />
-        </section>
-
+        </section> 
         <section className="">
           <DrivenAi />
         </section>

@@ -9,11 +9,16 @@ const SignIn = () => {
   return (
     <>
       <div className="min-w-full min-h-full ">
-        <div className="flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 pt-5  w-[1000px] bg-[rgba(66,133,244,1)]">
-            <Image src="/logo.png" alt="logo" width={200} height={100}  className="items-center"/>
-
-            <p className="text-[20px] font-[400] mt-[6rem] w-full">
+        <div className="md:flex sm:row h-[100vh] w-[100%]    ">
+          <div className="flex flex-col px-8 pt-5  w-[100%] bg-[rgba(66,133,244,0.3)]">
+            <Image
+              src="/logo.png"
+              alt="logo"
+              width={200}
+              height={100}
+              className="items-center"
+            />
+            <p className="text-[20px] font-[400] md:mt-[8rem] sm:mt-[2rem] w-full">
               This app has been a game-changer for my small business! Connecting
               my bank account was super easy, and now I can see all my cash flow
               and expenses in one place. The automated reports save me so much
@@ -27,7 +32,7 @@ const SignIn = () => {
             </p>
           </div>
 
-          <div className="w-full  p-24 bg-white align-center">
+          <div className="w-[100%]  p-24 bg-white align-center">
             <div className="flex flex-col w-full justify-center">
               <h1 className="text-start text-[28px] font-[700] mb-4 text-black">
                 Welcome back

@@ -28,7 +28,7 @@ const DrivenAi = () => {
             objectFit="contain"
           />
         </div>
-        <button className=" self-center p-[20px] px-[30px] text-center rounded-[26px] text-xl font-normal mb-6 text-[rgba(230,242,242,1)]  bg-[rgba(66,133,244,1)]">
+        <button className=" self-center p-[20px] px-[30px] text-center rounded-[26px] text-xl font-normal mb-6 bg-[rgba(66,133,244,1)] text-white">
           Get Started
         </button>
       </div>

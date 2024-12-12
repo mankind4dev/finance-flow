@@ -5,7 +5,7 @@ import React from "react";
 const LinkBank = () => {
   return (
     <>
-      <div className="flex flex-col mt-28">
+      <div className="flex flex-col mt-2 ">
         <div className="flex flex-col justify-center text-center">
           <h1 className="text-[68px] font-[600] px-32 ">
             LINK YOUR BANK CARDS AND GET ALERTS ON EXPENSES AND INCOME EASILY
@@ -14,7 +14,7 @@ const LinkBank = () => {
             YOUR SECURITY IS OUR NO 1 CONCERN
           </p>
         </div>
-        <div className="flex w-full h-[500px] gap-x-8 justify-center text-center mt-24 ">
+        <div className="flex flex-wrap w-full   gap-x-8 gap-y-8 justify-center text-center mt-24 ">
           <Image
             src="/images/link1.png"
             width={800}
@@ -30,9 +30,9 @@ const LinkBank = () => {
             objectFit="contain"
           />
         </div>
-        <div className="flex items-end  justify-center mt-32 gap-7 ">
+        <div className="flex justify-center pt-32 ">
         <Link href={"/signin"}>
-          <button  className="p-[20px] px-[30px] rounded-[26px] text-xl font-normal  bg-[rgba(230,242,242,1)]">
+          <button  className="p-[20px] px-[30px] rounded-[26px] text-xl font-normal  text-[rgba(66,133,244,1)] bg-white">
             Get Started
           </button>
         </Link>

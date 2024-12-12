@@ -10,8 +10,8 @@ const SignUp = () => {
   return (
     <>
       <div className="min-w-full min-h-full ">
-        <div className="flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 w-[1000px] pt-6   bg-[rgba(66,133,244,1)]">
+        <div className="sm:row md:flex h-[100vh] w-[100%]    ">
+          <div className="flex flex-col px-8 w-[100%] pt-6   bg-[rgba(66,133,244,1)]">
             <Image
               src="/logo.png"
               alt="logo"
@@ -19,7 +19,7 @@ const SignUp = () => {
               height={100}
               className="items-center"
             />
-            <p className="text-[20px] font-[400] mt-[6rem] w-full">
+            <p className="text-[20px] font-[400] sm:mt-[2rem] md:mt-[6rem] w-full">
               This app has been a game-changer for my small business! Connecting
               my bank account was super easy, and now I can see all my cash flow
               and expenses in one place. The automated reports save me so much
@@ -28,7 +28,7 @@ const SignUp = () => {
               overspending. Highly recommend this to any SME owner who wants to
               stay on top of their financial health without the stress!
             </p>
-            <p className="text-[25px] font-[600] mt-3">
+            <p className="text-[25px] font-[600] py-3">
               .Jane O., Owner of FreshBakes Confectioneries
             </p>
           </div>
@@ -104,7 +104,7 @@ const SignUp = () => {
                   Create an account
                 </button>
               </form>
-              <div className="flex justify-center text-center mt-3 whitespace-nowrap">
+              <div className="flex justify-center text-center py-3  whitespace-nowrap">
                 <p className="text-[rgba(83,83,83,1)] text-[16px]">
                   Already have an account?
                 </p>

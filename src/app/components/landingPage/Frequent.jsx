@@ -32,10 +32,12 @@ export default function FAQ() {
           <div className="flex justify-between text-center pt-6 px-6 ">
             <p className="text-[20px] font-[500]">{faq}</p>
             {active === index ? (
-              <FaMinus   
-                onClick={() => toggle(index)}
-                className="flex text-center justify-center self-center mb-2 bg-[rgba(66,133,244,0.7)] cursor-pointer text-white p-3 rounded-full text-[40px]"
-              />
+              <>
+                <FaMinus
+                  onClick={() => toggle(index)}
+                  className="flex text-center justify-center self-center mb-2 bg-[rgba(66,133,244,0.7)] cursor-pointer text-white p-3 rounded-full text-[40px]"
+                />
+              </>
             ) : (
               <FaPlus
                 onClick={() => toggle(index)}
