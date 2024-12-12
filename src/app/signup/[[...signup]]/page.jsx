@@ -10,8 +10,8 @@ const SignUp = () => {
   return (
     <>
       <div className="min-w-full min-h-full ">
-        <div className="sm:row md:flex h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 w-[100%] pt-6   bg-[rgba(66,133,244,1)]">
+        <div className="sm:row md:flex h-[100vh] w-[100%]">
+          <div className="flex flex-col px-8 w-[100%] pt-6 bg-[rgba(255,255,255,0.3)]">
             <Image
               src="/logo.png"
               alt="logo"

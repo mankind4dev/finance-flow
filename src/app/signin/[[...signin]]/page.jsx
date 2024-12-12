@@ -10,14 +10,14 @@ const SignIn = () => {
     <>
       <div className="min-w-full min-h-full ">
         <div className="md:flex sm:row h-[100vh] w-[100%]    ">
-          <div className="flex flex-col px-8 pt-5  w-[100%] bg-[rgba(66,133,244,0.3)]">
-            <Image
-              src="/logo.png"
-              alt="logo"
-              width={200}
-              height={100}
-              className="items-center"
-            />
+          <div className="flex flex-col px-8 pt-5  w-[100%] bg-[rgba(255,255,255,0.3)]">           
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={200}
+                height={100}
+                className="items-center"
+              /> 
             <p className="text-[20px] font-[400] md:mt-[8rem] sm:mt-[2rem] w-full">
               This app has been a game-changer for my small business! Connecting
               my bank account was super easy, and now I can see all my cash flow
@@ -69,6 +69,11 @@ const SignIn = () => {
                     placeholder="Enter your password...."
                   />
                 </div>
+                <Link href="/forget-password">
+                  <p className="text-end justify-center pt-2 hover:underline">
+                    Forgotten password?
+                  </p>
+                </Link>
 
                 <button
                   type="submit"
