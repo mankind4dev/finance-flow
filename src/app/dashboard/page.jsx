@@ -1,16 +1,23 @@
 import React from "react";
-import DashboardAside from "../components/dashboard/DashboardAside";
-import DashBoardHome from "../components/dashboard/DashBoardHome";
+import DashboardAside from "../components/dashboardCompo/DashboardAside";
+import DashBoardHome from "../components/dashboardCompo/DashBoardHome";
+import Header from "../components/dashboardCompo/Header";
 
-const page = () => {
+const page = ({ children }) => {
   return (
     <>
-      <div className="flex gap-2">
-        <div className="flex justify-center text-center bg-slate-600 w-[300px] h-[100vh]">
-          <DashboardAside />
+      <div className="h-[100vh]">
+        <div className="sticky w-full bg-[rgba(217,217,217,1)] border-b-2 border-slate-300">
+          <Header />
         </div>
-        <div className="">
-          <DashBoardHome />
+        <div className="flex sticky gap-2">
+          <div className="flex sticky justify-center text-start w-[300px]  ">
+            <DashboardAside />
+          </div>
+          <div className="flex w-full bg-slate-300">
+            <DashBoardHome />
+            {/* {children} */}
+          </div>
         </div>
       </div>
     </>
